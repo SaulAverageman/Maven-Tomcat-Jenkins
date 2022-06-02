@@ -1,0 +1,13 @@
+steps
+-----
+1) install and configure maven in backend server
+2) install and configure tomcat in frontend server
+3) install java in both
+4) pull project in backend server
+
+5) using maven clean compile and package the project
+ (location of pom.xml)$ mvn clean compile package
+
+6) a war file will be formed-> scp that file to <location of tomcat>/webapps
+7) open 8080 port of front end server
+8) Access the deployed webapp using <IP>:8080/<name-of-project> 
